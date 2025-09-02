@@ -90,8 +90,8 @@ Flash it using **Betaflight Configurator** (follow the steps from Option 1).
     <br>
   <img src="documentation/atmos-fc_images/pcb_4.png" width="400"/>
     <br>
-  <img src="documentation/atmos-fc_images/pcb_3d.png" width="400"/>
-      <br>
+  <img src="documentation/atmos-fc_images/pcb_3d-view.png"width="400"/>
+    <br>
   <img src="documentation/atmos-fc_images/pcb_integrated.png" width="400"/>
 </p>
 
