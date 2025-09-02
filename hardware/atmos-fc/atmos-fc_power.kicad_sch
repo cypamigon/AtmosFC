@@ -2678,9 +2678,9 @@
 		)
 		(uuid "8a428634-f76d-4efd-97d5-c89c65ae3e96")
 	)
-	(text "+14V < BATT < +26V"
+	(text "Max. Battery 8S"
 		(exclude_from_sim no)
-		(at 37.846 71.12 0)
+		(at 35.56 72.644 0)
 		(effects
 			(font
 				(face "Arial")

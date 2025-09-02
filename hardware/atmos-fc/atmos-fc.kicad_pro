@@ -550,7 +550,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../gerber/",
+      "plot": "../assembly/gerber/",
       "pos_files": "../",
       "specctra_dsn": "",
       "step": "",

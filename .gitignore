@@ -5,6 +5,7 @@
 *.000
 *.bak
 *.bck
+*.bkp
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
