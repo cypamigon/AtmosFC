@@ -4,7 +4,7 @@
 
 AtmosFC is an open-hardware quadcopter flight controller designed in KiCad. Powered by an STM32G4 MCU, it integrates high-performance sensors and peripherals, and is fully compatible with Betaflight (≥ 4.5).
 
-<p align="center"> <img src="documentation/atmos-fc_images/pcb_1.png" width="500" alt="AtmosFC PCB"/> </p> 
+<p align="center"> <img src="documentation/pcb_images/pcb_1.png" width="500" alt="AtmosFC PCB"/> </p> 
 
 ## Table of Contents
 - [Features](#features)
@@ -46,23 +46,23 @@ AtmosFC is an open-hardware quadcopter flight controller designed in KiCad. Powe
 
 The block diagram below shows the main hardware components and their interconnections.
 
-<p align="center"> <img src="documentation/atmos-fc_block_diagram.png" alt="AtmosFC Hardware Block Diagram"/> </p> 
+<p align="center"> <img src="documentation/hardware_block_diagram.png" alt="AtmosFC Hardware Block Diagram"/> </p> 
 
 ##  Flashing Betaflight
 
-AtmosFC runs **Betaflight ≥ 4.5**. You can either flash the precompiled Betaflight 4.5 firmware or build your own from source.
+AtmosFC runs **Betaflight ≥ 4.5**. You can either flash the precompiled Betaflight 4.5 firmware or build the latest from source.
 
 ### Option 1 – Using the provided firmware
 1. Open **Betaflight Configurator**.  
    If you don’t have it installed, get the latest version here : [Betaflight Configurator Releases](https://github.com/betaflight/betaflight-configurator/releases/latest)
 3. Connect AtmosFC via USB-C.
 4. If required, enter DFU mode (hold the BOOT button while plugging in USB).
-5. In Configurator, go to **Firmware Flasher → Load firmware [Local]** and select the file `betaflight_4.5.0_ATMOSFC.hex` in `betaflight_config/`.
+5. In the Betaflight Configurator, go to **Firmware Flasher → Load firmware [Local]** and select the file `betaflight_4.5.0_ATMOSFC.hex` in `betaflight_config/`.
 6. Click **Flash Firmware** and wait for the board to reboot.
 
 ### Option 2 – Building from Source
 
-1. Clone the [Betaflight repository](https://github.com/betaflight/betaflight) and install the required toolchain. Follow the official setup guide for your OS : [Betaflight Building Docs](https://betaflight.com/docs/category/building).
+1. Clone the [Betaflight Repository](https://github.com/betaflight/betaflight) and install the required toolchain. Follow the official setup guide for your OS : [Betaflight Building Docs](https://betaflight.com/docs/category/building).
 2. In the Betaflight root directory, update the target list by running:
 ```
 > make configs
@@ -84,15 +84,15 @@ Flash it using **Betaflight Configurator** (follow the steps from Option 1).
 ## Gallery
 
 <p align="center">
-  <img src="documentation/atmos-fc_images/pcb_2.png" width="400" />
+  <img src="documentation/pcb_images/pcb_2.png" width="400" />
     <br>
-  <img src="documentation/atmos-fc_images/pcb_3.png" width="400"  />
+  <img src="documentation/pcb_images/pcb_3.png" width="400"  />
     <br>
-  <img src="documentation/atmos-fc_images/pcb_4.png" width="400"/>
+  <img src="documentation/pcb_images/pcb_4.png" width="400"/>
     <br>
-  <img src="documentation/atmos-fc_images/pcb_3d-view.png"width="400"/>
+  <img src="documentation/pcb_images/pcb_3d-view.png"width="400"/>
     <br>
-  <img src="documentation/atmos-fc_images/pcb_integrated.png" width="400"/>
+  <img src="documentation/pcb_images/pcb_integrated.png" width="400"/>
 </p>
 
 ## Repository Structure
@@ -107,7 +107,7 @@ The repository is organized as follows:
 ├── betaflight_config/
 │   ├── ATMOSFC/            # Board configuration for Betaflight ≥ 4.5
 │   └── betaflight_4.5.0_ATMOSFC.hex    # Precompiled Betaflight 4.5 firmware
-├── documentation/          # Logo, block diagram, photos
+├── documentation/          # Schematic (.pdf), images, logo, block diagram
 └── README.md
 ```
 
