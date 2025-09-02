@@ -53,30 +53,27 @@ The block diagram below shows the main hardware components and their interconnec
 AtmosFC runs **Betaflight ≥ 4.5**. You can either flash the precompiled Betaflight 4.5 firmware or build your own from source.
 
 ### Option 1 – Using the provided firmware
-1. Download `betaflight_config/betaflight_4.5.0_ATMOSFC.hex`.
-2. Open **Betaflight Configurator**.  
-   If you don’t have it installed, download the latest version here : [Betaflight Configurator Releases](https://github.com/betaflight/betaflight-configurator/releases/latest)
+1. Open **Betaflight Configurator**.  
+   If you don’t have it installed, get the latest version here : [Betaflight Configurator Releases](https://github.com/betaflight/betaflight-configurator/releases/latest)
 3. Connect AtmosFC via USB-C.
-4. Enter DFU mode if required (hold BOOT button while connecting USB).
-5. In Configurator, go to Firmware Flasher → select the `.hex` file.
-6. Flash and reboot.
+4. If required, enter DFU mode (hold the BOOT button while plugging in USB).
+5. In Configurator, go to **Firmware Flasher → Load firmware [Local]** and select the file `betaflight_4.5.0_ATMOSFC.hex` in `betaflight_config/`.
+6. Click **Flash Firmware** and wait for the board to reboot.
 
 ### Option 2 – Building from Source
 
-> **Note:** Building Betaflight requires some development tools (make, GCC, etc.).  
-> See the official instructions here for setup on your operating system:: [Betaflight Building Docs](https://betaflight.com/docs/category/building).
-
-1. Clone the [Betaflight repository](https://github.com/betaflight/betaflight).
-2. Add the AtmosFC board configuration by copying the folder `betaflight_config/ATMOSFC/` into `betaflight/src/config/configs`.
-3. Update the target list by running:
+1. Clone the [Betaflight repository](https://github.com/betaflight/betaflight) and install the required toolchain. Follow the official setup guide for your OS : [Betaflight Building Docs](https://betaflight.com/docs/category/building).
+2. In the Betaflight root directory, update the target list by running:
 ```
 > make configs
 ```
-4. Then you can make a build for the AtmosFC target.
+3. Add the AtmosFC board configuration by copying the folder `betaflight_config/ATMOSFC/` into `betaflight/src/config/configs`.
+4. Build the firmware for AtmosFC target.
 ```
 > make ATMOSFC
 ```
-5. Flash the compiled `.hex` using Betaflight Configurator (refer to steps from option 1).
+5. The compiled `.hex` file will be located under `betaflight/obj/`.
+Flash it using **Betaflight Configurator** (follow the steps from Option 1).
 
 ## Notes 
 - The board has been **successfully tested with Betaflight 4.5**. All basic functions, including motor outputs, sensors, LEDs, were working correctly.
