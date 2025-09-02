@@ -46,7 +46,7 @@ AtmosFC is an open-hardware quadcopter flight controller designed in KiCad. Powe
 
 The block diagram below shows the main hardware components and their interconnections.
 
-<p align="center"> <img src="documentation/atmos-fc_block_diagram.svg" alt="AtmosFC Hardware Block Diagram"/> </p> 
+<p align="center"> <img src="documentation/atmos-fc_block_diagram.png" alt="AtmosFC Hardware Block Diagram"/> </p> 
 
 ##  Flashing Betaflight
 
