@@ -3216,7 +3216,7 @@
 		(members "FLASH_SPI_~{CS}" "FLASH_SPI_SCK" "FLASH_SPI_MISO" "FLASH_SPI_MOSI")
 	)
 	(bus_alias "IMU_COM."
-		(members "IMU_SPI_~{CS}" "IMU_SPI_SCK" "IMU_SPI_MISO" "IMU_SPI_MOSI")
+		(members "IMU_SPI_~{CS}" "IMU_SPI_SCK" "IMU_SPI_MISO" "IMU_SPI_MOSI" "IMU_INT")
 	)
 	(bus_alias "OSD_COM."
 		(members "OSD_SPI_~{CS}" "OSD_SPI_SCK" "OSD_SPI_MISO" "OSD_SPI_MOSI")
@@ -3396,10 +3396,6 @@
 		(uuid "d3d8a590-6bce-4e64-ba00-8315220d3686")
 	)
 	(no_connect
-		(at 219.71 91.44)
-		(uuid "d555b270-b53c-47a9-a38b-9cda656af541")
-	)
-	(no_connect
 		(at 186.69 83.82)
 		(uuid "e5536376-7a24-4539-8200-fead91b2ca53")
 	)
@@ -3528,6 +3524,15 @@
 			(type default)
 		)
 		(uuid "76f05070-7418-4982-aa66-bf52f0d53be3")
+	)
+	(bus_entry
+		(at 64.77 153.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f8e1b2-8a0f-4206-b877-faf25ecb4e6d")
 	)
 	(bus_entry
 		(at 39.37 146.05)
@@ -3794,6 +3799,16 @@
 			(type default)
 		)
 		(uuid "118422a6-880b-4a8c-8879-6e463a181d63")
+	)
+	(wire
+		(pts
+			(xy 219.71 91.44) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125811f7-b7ea-4947-9c8e-56c18bbe2e10")
 	)
 	(bus
 		(pts
@@ -4134,6 +4149,16 @@
 			(type default)
 		)
 		(uuid "3bbb5a56-7faa-41cc-bca0-10e83ab75284")
+	)
+	(bus
+		(pts
+			(xy 64.77 151.13) (xy 64.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e66b8b4-f782-48df-b01f-393d12652ce7")
 	)
 	(wire
 		(pts
@@ -5015,6 +5040,16 @@
 		)
 		(uuid "a194230a-27eb-4fe6-9448-fca1c84d5a92")
 	)
+	(bus
+		(pts
+			(xy 64.77 153.67) (xy 64.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24c5647-cd1b-4c19-a677-c7c56db52efc")
+	)
 	(wire
 		(pts
 			(xy 204.47 59.69) (xy 207.01 59.69)
@@ -5054,6 +5089,16 @@
 			(type default)
 		)
 		(uuid "a9424d3e-e1d7-4391-81ee-cca154b6dd18")
+	)
+	(wire
+		(pts
+			(xy 67.31 156.21) (xy 68.58 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1d6a4f-7017-4fcf-86ff-90be56a4c25e")
 	)
 	(bus
 		(pts
@@ -5404,16 +5449,6 @@
 			(type default)
 		)
 		(uuid "dd1fd8fd-98a9-4d9d-9e78-78bd4ca6898c")
-	)
-	(bus
-		(pts
-			(xy 64.77 151.13) (xy 64.77 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de948eac-853c-4546-a9c0-fad06513764e")
 	)
 	(wire
 		(pts
@@ -6110,6 +6145,18 @@
 		)
 		(uuid "0fa0e33f-4936-4506-93a8-90007954408a")
 	)
+	(label "IMU_EXTI"
+		(at 68.58 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1140c2cb-a158-4c44-b8f0-0a83409dbc78")
+	)
 	(label "LED_BLUE_EN"
 		(at 185.42 96.52 180)
 		(fields_autoplaced yes)
@@ -6254,7 +6301,7 @@
 		)
 		(uuid "35065688-dca0-4e6a-9bdf-b03412d40b26")
 	)
-	(label "BUZZER_CTRL_B"
+	(label "BUZZER_EN_B"
 		(at 40.64 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6338,7 +6385,7 @@
 		)
 		(uuid "4f0e386e-f05f-4b1a-ae56-9099f70f51c4")
 	)
-	(label "BUZZER_CTRL"
+	(label "BUZZER_EN"
 		(at 185.42 86.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6397,6 +6444,18 @@
 			(justify left bottom)
 		)
 		(uuid "605dbed5-8886-454d-9944-8039a70bd2b3")
+	)
+	(label "IMU_INT"
+		(at 220.98 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "66e01859-13b0-46a4-a987-579f06af2e61")
 	)
 	(label "LED1_A"
 		(at 102.87 62.23 0)
@@ -6542,7 +6601,7 @@
 		)
 		(uuid "997b81b9-3bc8-40af-83a7-89988f54bd7b")
 	)
-	(label "BUZZER_CTRL"
+	(label "BUZZER_EN"
 		(at 31.75 64.77 180)
 		(fields_autoplaced yes)
 		(effects

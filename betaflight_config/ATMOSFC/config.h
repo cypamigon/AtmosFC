@@ -87,6 +87,7 @@
 
 #define MAX7456_SPI_CS_PIN              PA4
 #define GYRO_1_CS_PIN                   PB12
+#define GYRO_1_EXTI_PIN                 PA10
 #define FLASH_CS_PIN                    PA13
 
 #define ADC_VBAT_PIN                    PB1

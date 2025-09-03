@@ -23,8 +23,7 @@ AtmosFC is an open-hardware quadcopter flight controller designed in KiCad. Powe
 - **Barometer**: DPS-386
 - **OSD**: MAX7456 for analog on-screen display
 - **Blackbox**: 32MB onboard flash memory for log recording
-- **Power input**: Up to 8S
-    > ⚠️   The board has been tested with 6S LiPo batteries. The onboard MAX25232 buck regulator can theoretically support up to 36 V (~ 8S LiPo), but this has not been tested. Use higher voltages at your own risk.
+- **Power input**: Up to 6S
 - **Power monitoring**: Battery voltage and current sensing
 - **Status indicators**: Green, Blue, and Amber LEDs
 - **Dimensions**: 40x40mm

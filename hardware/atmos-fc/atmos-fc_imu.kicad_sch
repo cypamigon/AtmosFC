@@ -1105,10 +1105,6 @@
 		(uuid "7b848089-e921-4bc6-bf61-34475193d689")
 	)
 	(no_connect
-		(at 142.24 105.41)
-		(uuid "a93ef839-7262-450c-b09b-0d97a3a27e9f")
-	)
-	(no_connect
 		(at 182.88 100.33)
 		(uuid "e6df5a22-62a1-465d-9745-bf8e0a39b156")
 	)
@@ -1151,6 +1147,15 @@
 			(type default)
 		)
 		(uuid "d2d7d2ed-b8a7-4510-bc90-8180f1a33c23")
+	)
+	(bus_entry
+		(at 104.14 102.87)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64f7107-0141-4741-9d48-3eb8a068a4f7")
 	)
 	(wire
 		(pts
@@ -1201,6 +1206,16 @@
 			(type default)
 		)
 		(uuid "1eb5f648-0dec-4b9f-a605-113d496a85ac")
+	)
+	(wire
+		(pts
+			(xy 106.68 105.41) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254b4636-3135-4a06-bca0-b1080e99e951")
 	)
 	(wire
 		(pts
@@ -1341,6 +1356,26 @@
 			(type default)
 		)
 		(uuid "7993b3a9-71f4-4ef4-8be0-8facf51550dc")
+	)
+	(bus
+		(pts
+			(xy 104.14 102.87) (xy 104.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a85a602-c3c5-4483-a75c-6224a175747b")
+	)
+	(bus
+		(pts
+			(xy 104.14 99.06) (xy 104.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856dd3c1-d4e4-46d5-9b32-2246c5afc053")
 	)
 	(wire
 		(pts
@@ -1502,16 +1537,6 @@
 		)
 		(uuid "d68af776-fc25-451d-9463-69a0362be87f")
 	)
-	(bus
-		(pts
-			(xy 104.14 99.06) (xy 104.14 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e3db58-e647-478d-b633-aa86ee8ff704")
-	)
 	(wire
 		(pts
 			(xy 182.88 102.87) (xy 185.42 102.87)
@@ -1606,6 +1631,18 @@
 		)
 		(uuid "2f73a517-87fb-4bc7-a21f-b0bd3efdb0d0")
 	)
+	(label "IMU_INT"
+		(at 107.95 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ac9bb2d-b580-4e47-a321-ffee4eb73f4a")
+	)
 	(label "IMU_SPI_MOSI"
 		(at 118.11 93.98 180)
 		(fields_autoplaced yes)
@@ -1619,14 +1656,14 @@
 		(uuid "8bda941f-ccfb-4268-a25d-904b0c3e2736")
 	)
 	(label "IMU_SPI_SCK"
-		(at 118.11 99.06 180)
+		(at 107.95 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Arial")
 				(size 1.016 1.016)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ade32d8e-737e-4e16-8070-5b1a08b2a6e7")
 	)
@@ -1643,14 +1680,14 @@
 		(uuid "b3f6b56d-dae2-4c0d-b79a-6e1f0d25348a")
 	)
 	(label "IMU_SPI_~{CS}"
-		(at 118.11 101.6 180)
+		(at 107.95 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(face "Arial")
 				(size 1.016 1.016)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e790cb95-6840-4716-a034-c156a4df6ef5")
 	)

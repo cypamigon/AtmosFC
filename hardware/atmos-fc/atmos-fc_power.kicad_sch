@@ -2678,7 +2678,7 @@
 		)
 		(uuid "8a428634-f76d-4efd-97d5-c89c65ae3e96")
 	)
-	(text "Max. Battery 8S"
+	(text "Max. Battery 6S"
 		(exclude_from_sim no)
 		(at 35.56 72.644 0)
 		(effects
