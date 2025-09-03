@@ -28,7 +28,7 @@ AtmosFC is an open-hardware quadcopter flight controller designed in KiCad. Powe
 - **Power monitoring**: Battery voltage and current sensing
 - **Status indicators**: Green, Blue, and Amber LEDs
 - **Dimensions**: 40x40mm
-- **Mounting holes**: 30.5×30.5 mm (M3)
+- **Mounting holes**: 30.5×30.5 mm (M4 holes for silicone inserts with M3 screws)
 - **Weight**: 8.2g
 
 ## Input / Output 
