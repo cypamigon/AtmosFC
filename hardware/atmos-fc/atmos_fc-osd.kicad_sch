@@ -189,7 +189,7 @@
 			(symbol "MAX7456_1_1"
 				(rectangle
 					(start -10.16 0)
-					(end 11.43 -41.91)
+					(end 11.43 -53.34)
 					(stroke
 						(width 0)
 						(type default)
@@ -253,7 +253,7 @@
 					)
 				)
 				(pin passive line
-					(at -15.24 -31.75 0)
+					(at -15.24 -33.02 0)
 					(length 5.08)
 					(name "LOS"
 						(effects
@@ -271,8 +271,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 16.51 -33.02 180)
-					(length 5.08) hide
+					(at 16.51 -38.1 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -289,8 +289,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 16.51 -33.02 180)
-					(length 5.08) hide
+					(at 16.51 -40.64 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -307,8 +307,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 16.51 -33.02 180)
-					(length 5.08) hide
+					(at 16.51 -43.18 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -325,8 +325,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 16.51 -33.02 180)
-					(length 5.08) hide
+					(at 16.51 -45.72 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -343,7 +343,7 @@
 					)
 				)
 				(pin output line
-					(at -15.24 -34.29 0)
+					(at -15.24 -35.56 0)
 					(length 5.08)
 					(name "~{VSYNC}"
 						(effects
@@ -361,7 +361,7 @@
 					)
 				)
 				(pin output line
-					(at -15.24 -36.83 0)
+					(at -15.24 -38.1 0)
 					(length 5.08)
 					(name "~{HSYNC}"
 						(effects
@@ -379,7 +379,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 -39.37 0)
+					(at -15.24 -40.64 0)
 					(length 5.08)
 					(name "~{RESET}"
 						(effects
@@ -397,8 +397,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 16.51 -33.02 180)
-					(length 5.08) hide
+					(at 16.51 -35.56 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -541,8 +541,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 16.51 -33.02 180)
-					(length 5.08) hide
+					(at 16.51 -48.26 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -559,8 +559,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 16.51 -33.02 180)
-					(length 5.08) hide
+					(at 16.51 -50.8 180)
+					(length 5.08)
 					(name "NC"
 						(effects
 							(font
@@ -1517,15 +1517,15 @@
 		(uuid "dbcd0a3e-5c60-4530-ad3a-63feb691a338")
 	)
 	(no_connect
-		(at 132.08 114.3)
+		(at 132.08 115.57)
 		(uuid "52853fe6-e0ab-43e0-9331-ea1768cb9e96")
 	)
 	(no_connect
-		(at 132.08 119.38)
+		(at 132.08 120.65)
 		(uuid "ad6e1b75-4850-40ea-a0f8-ddc9792ccf68")
 	)
 	(no_connect
-		(at 132.08 116.84)
+		(at 132.08 118.11)
 		(uuid "c63c5959-b7d8-4cfc-9296-9975eb8e5aa4")
 	)
 	(no_connect
@@ -1780,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 121.92) (xy 132.08 121.92)
+			(xy 125.73 123.19) (xy 132.08 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1830,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 121.92) (xy 119.38 121.92)
+			(xy 120.65 123.19) (xy 119.38 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1880,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 119.38 120.65)
+			(xy 119.38 123.19) (xy 119.38 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2261,7 +2261,7 @@
 		(uuid "bc880d47-4092-44d8-ab56-906939415009")
 	)
 	(label "OSD_~{RESET}"
-		(at 125.73 121.92 0)
+		(at 125.73 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3055,7 +3055,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 119.38 120.65 0)
+		(at 119.38 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3063,7 +3063,7 @@
 		(dnp no)
 		(uuid "65130ca6-5501-4fd1-b228-68771a370fee")
 		(property "Reference" "#PWR038"
-			(at 119.38 124.46 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3073,7 +3073,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.38 117.094 0)
+			(at 119.38 118.364 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3082,7 +3082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 120.65 0)
+			(at 119.38 121.92 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3092,7 +3092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 120.65 0)
+			(at 119.38 121.92 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3102,7 +3102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 120.65 0)
+			(at 119.38 121.92 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3674,7 +3674,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 123.19 121.92 90)
+		(at 123.19 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3682,7 +3682,7 @@
 		(dnp no)
 		(uuid "cedb6ee6-182b-4b68-90c5-e2ac29931f61")
 		(property "Reference" "R18"
-			(at 123.19 123.825 90)
+			(at 123.19 125.095 90)
 			(effects
 				(font
 					(face "Arial")
@@ -3691,7 +3691,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 123.19 125.73 90)
+			(at 123.19 127 90)
 			(effects
 				(font
 					(face "Arial")
@@ -3700,7 +3700,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 121.92 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3710,7 +3710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 121.92 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3720,7 +3720,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use"
-			(at 123.19 121.92 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3730,7 +3730,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay / Dale"
-			(at 123.19 121.92 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(face "Arial")
@@ -3740,7 +3740,7 @@
 			)
 		)
 		(property "Mfr Part Number" "CRCW040210K0FKEDC"
-			(at 123.19 121.92 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(face "Arial")

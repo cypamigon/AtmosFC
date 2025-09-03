@@ -6145,7 +6145,7 @@
 		)
 		(uuid "0fa0e33f-4936-4506-93a8-90007954408a")
 	)
-	(label "IMU_EXTI"
+	(label "IMU_INT"
 		(at 68.58 156.21 0)
 		(fields_autoplaced yes)
 		(effects

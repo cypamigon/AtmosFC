@@ -61,7 +61,7 @@
 		(symbol "MAX7456_1_1"
 			(rectangle
 				(start -10.16 0)
-				(end 11.43 -41.91)
+				(end 11.43 -53.34)
 				(stroke
 					(width 0)
 					(type default)
@@ -125,7 +125,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -31.75 0)
+				(at -15.24 -33.02 0)
 				(length 5.08)
 				(name "LOS"
 					(effects
@@ -143,8 +143,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -33.02 180)
-				(length 5.08) hide
+				(at 16.51 -38.1 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -161,8 +161,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -33.02 180)
-				(length 5.08) hide
+				(at 16.51 -40.64 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -179,8 +179,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -33.02 180)
-				(length 5.08) hide
+				(at 16.51 -43.18 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -197,8 +197,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -33.02 180)
-				(length 5.08) hide
+				(at 16.51 -45.72 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -215,7 +215,7 @@
 				)
 			)
 			(pin output line
-				(at -15.24 -34.29 0)
+				(at -15.24 -35.56 0)
 				(length 5.08)
 				(name "~{VSYNC}"
 					(effects
@@ -233,7 +233,7 @@
 				)
 			)
 			(pin output line
-				(at -15.24 -36.83 0)
+				(at -15.24 -38.1 0)
 				(length 5.08)
 				(name "~{HSYNC}"
 					(effects
@@ -251,7 +251,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -39.37 0)
+				(at -15.24 -40.64 0)
 				(length 5.08)
 				(name "~{RESET}"
 					(effects
@@ -269,8 +269,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -33.02 180)
-				(length 5.08) hide
+				(at 16.51 -35.56 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -413,8 +413,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -33.02 180)
-				(length 5.08) hide
+				(at 16.51 -48.26 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
@@ -431,8 +431,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -33.02 180)
-				(length 5.08) hide
+				(at 16.51 -50.8 180)
+				(length 5.08)
 				(name "NC"
 					(effects
 						(font
