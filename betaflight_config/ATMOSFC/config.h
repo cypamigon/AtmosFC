@@ -90,8 +90,8 @@
 #define GYRO_1_EXTI_PIN                 PA10
 #define FLASH_CS_PIN                    PA13
 
-#define ADC_VBAT_PIN                    PB1
-#define ADC_CURR_PIN                    PB2
+#define ADC_VBAT_PIN                    PB2
+#define ADC_CURR_PIN                    PB1
 
 #define LED0_PIN                        PC14
 #define LED1_PIN                        PC13

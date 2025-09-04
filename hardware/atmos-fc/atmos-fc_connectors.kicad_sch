@@ -3544,7 +3544,7 @@
 		(uuid "21c5266f-9dd0-47dd-bc82-a4f76ba515f3")
 	)
 	(bus_entry
-		(at 181.61 87.63)
+		(at 181.61 82.55)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -3632,6 +3632,15 @@
 			(type default)
 		)
 		(uuid "e1591f40-5503-4483-9ffb-c6f59163e980")
+	)
+	(bus_entry
+		(at 181.61 87.63)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d09fd2-11cc-4708-945b-9c1c7e19f1e2")
 	)
 	(bus
 		(pts
@@ -3895,6 +3904,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e28ba8-ddcb-44c2-a675-00338c68dbb7")
+	)
+	(wire
+		(pts
 			(xy 147.32 54.61) (xy 146.05 54.61)
 		)
 		(stroke
@@ -3915,6 +3934,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 90.17) (xy 179.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d13eee6-5425-45b7-ad39-b441ccecd7c4")
+	)
+	(wire
+		(pts
 			(xy 77.47 124.46) (xy 82.55 124.46)
 		)
 		(stroke
@@ -3922,6 +3951,16 @@
 			(type default)
 		)
 		(uuid "2f43ee66-7b9d-444b-ae78-f897ab05ccf5")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 179.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33681376-e05d-4867-9e34-46a11c84c3d9")
 	)
 	(wire
 		(pts
@@ -3975,6 +4014,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5081b2-e7d4-4a39-be16-2a86dfef9342")
+	)
+	(wire
+		(pts
 			(xy 149.86 113.03) (xy 147.32 113.03)
 		)
 		(stroke
@@ -4002,16 +4051,6 @@
 			(type default)
 		)
 		(uuid "3e71b3b0-8e1f-4cc4-99f0-991705d6e912")
-	)
-	(wire
-		(pts
-			(xy 146.05 87.63) (xy 179.07 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42efe0de-af5c-40a2-b30f-6b1c95927ccf")
 	)
 	(wire
 		(pts
@@ -4083,6 +4122,16 @@
 		)
 		(uuid "4f8afbae-b8da-4ecd-9495-23696e95181e")
 	)
+	(bus
+		(pts
+			(xy 181.61 85.09) (xy 181.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533c59fa-7a58-4439-801d-d005750ccd53")
+	)
 	(wire
 		(pts
 			(xy 55.88 66.04) (xy 57.15 66.04)
@@ -4102,6 +4151,16 @@
 			(type default)
 		)
 		(uuid "5b7783c8-9aa4-4f30-b834-61cd7cc869ce")
+	)
+	(bus
+		(pts
+			(xy 181.61 87.63) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c89b639-e329-4513-a428-f6c9ec405670")
 	)
 	(wire
 		(pts
@@ -4153,16 +4212,6 @@
 		)
 		(uuid "6dab28a2-f254-47a8-b5ba-8e24e63a98ca")
 	)
-	(bus
-		(pts
-			(xy 181.61 82.55) (xy 181.61 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dc0e3b3-2f6b-43d2-bd3d-c2f32e19bf9d")
-	)
 	(wire
 		(pts
 			(xy 31.75 90.17) (xy 31.75 91.44)
@@ -4182,16 +4231,6 @@
 			(type default)
 		)
 		(uuid "7234717b-fccc-41da-afcf-5d69051cbb84")
-	)
-	(wire
-		(pts
-			(xy 146.05 92.71) (xy 161.29 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7658b314-a7e3-42fc-bc47-696165b4c7a2")
 	)
 	(wire
 		(pts
@@ -4285,7 +4324,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 87.63) (xy 181.61 90.17)
+			(xy 181.61 82.55) (xy 181.61 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4322,16 +4361,6 @@
 			(type default)
 		)
 		(uuid "92b7e58d-8604-4f0d-84d4-d3815147329a")
-	)
-	(bus
-		(pts
-			(xy 181.61 85.09) (xy 181.61 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92d27e35-35e1-445d-b634-708362671052")
 	)
 	(wire
 		(pts
@@ -4385,16 +4414,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 92.71) (xy 179.07 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c79f79-5e73-4139-8a24-f77f48d79bbe")
-	)
-	(wire
-		(pts
 			(xy 49.53 148.59) (xy 50.8 148.59)
 		)
 		(stroke
@@ -4405,7 +4424,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 90.17) (xy 179.07 90.17)
+			(xy 166.37 85.09) (xy 179.07 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4835,16 +4854,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 179.07 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec215777-51ef-4058-aa20-5015708effc7")
-	)
-	(wire
-		(pts
 			(xy 187.96 115.57) (xy 189.23 115.57)
 		)
 		(stroke
@@ -4905,6 +4914,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 92.71) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e683f2-b252-4ccd-9ea0-f23f6b170d52")
+	)
+	(wire
+		(pts
 			(xy 58.42 186.69) (xy 58.42 184.15)
 		)
 		(stroke
@@ -4912,16 +4931,6 @@
 			(type default)
 		)
 		(uuid "f8868680-8f27-4bdf-9f61-5427263533c3")
-	)
-	(wire
-		(pts
-			(xy 146.05 90.17) (xy 161.29 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f7d574-a694-4860-a198-5c035602e49d")
 	)
 	(bus
 		(pts
@@ -5202,7 +5211,7 @@
 		(uuid "fbeffba1-e412-47b9-bbc9-ab08c754e60b")
 	)
 	(label "I2C_SCK"
-		(at 171.45 87.63 0)
+		(at 171.45 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5226,7 +5235,7 @@
 		(uuid "157f325b-2de0-4991-a801-3f1d8ea9c47d")
 	)
 	(label "I2C_SDA"
-		(at 171.45 85.09 0)
+		(at 171.45 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5238,7 +5247,7 @@
 		(uuid "18d4b7a6-d625-4458-85b3-34df94c60be1")
 	)
 	(label "UART4_RX"
-		(at 171.45 90.17 0)
+		(at 171.45 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5334,7 +5343,7 @@
 		(uuid "5df1b24f-3438-4970-bbe9-b9233cee381c")
 	)
 	(label "UART4_TX_C"
-		(at 147.32 92.71 0)
+		(at 147.32 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5382,7 +5391,7 @@
 		(uuid "785c4074-4e3c-4c75-918a-3b554516ab69")
 	)
 	(label "UART4_TX"
-		(at 171.45 92.71 0)
+		(at 171.45 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5610,7 +5619,7 @@
 		(uuid "c5a521d4-e82d-4742-9c00-11c9d018aff0")
 	)
 	(label "UART4_RX_C"
-		(at 147.32 90.17 0)
+		(at 147.32 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8812,7 +8821,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 163.83 92.71 270)
+		(at 163.83 87.63 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8821,7 +8830,7 @@
 		(dnp no)
 		(uuid "a9cc47b8-5d8c-4899-9aff-fface3c95b8b")
 		(property "Reference" "R?"
-			(at 168.275 91.44 90)
+			(at 168.275 86.36 90)
 			(effects
 				(font
 					(face "Arial")
@@ -8830,7 +8839,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 159.385 91.44 90)
+			(at 159.385 86.36 90)
 			(effects
 				(font
 					(face "Arial")
@@ -8839,7 +8848,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 92.71 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(face "Arial")
@@ -8849,7 +8858,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 92.71 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(face "Arial")
@@ -8859,7 +8868,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/16watt 33ohms 1% 100ppm"
-			(at 163.83 92.71 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(face "Arial")
@@ -8869,7 +8878,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay / Dale"
-			(at 163.83 92.71 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(face "Arial")
@@ -8879,7 +8888,7 @@
 			)
 		)
 		(property "Mfr Part Number" "CRCW040220K0FKED"
-			(at 163.83 92.71 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(face "Arial")
@@ -9450,7 +9459,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 163.83 90.17 270)
+		(at 163.83 85.09 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9459,7 +9468,7 @@
 		(dnp no)
 		(uuid "c9683924-b785-44b6-a9e3-a25002c45af9")
 		(property "Reference" "R?"
-			(at 168.275 88.9 90)
+			(at 168.275 83.82 90)
 			(effects
 				(font
 					(face "Arial")
@@ -9468,7 +9477,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 159.385 88.9 90)
+			(at 159.385 83.82 90)
 			(effects
 				(font
 					(face "Arial")
@@ -9477,7 +9486,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 90.17 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(face "Arial")
@@ -9487,7 +9496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 90.17 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(face "Arial")
@@ -9497,7 +9506,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/16watt 33ohms 1% 100ppm"
-			(at 163.83 90.17 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(face "Arial")
@@ -9507,7 +9516,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay / Dale"
-			(at 163.83 90.17 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(face "Arial")
@@ -9517,7 +9526,7 @@
 			)
 		)
 		(property "Mfr Part Number" "CRCW040220K0FKED"
-			(at 163.83 90.17 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(face "Arial")
